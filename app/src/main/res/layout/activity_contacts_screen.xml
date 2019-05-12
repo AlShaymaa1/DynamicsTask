@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:weightSum="4"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/contacts_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linear_layout"
+         />
+
+   <LinearLayout
+       android:id="@+id/linear_layout"
+       android:orientation="horizontal"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentStart="true"
+       android:layout_marginTop="20dp"
+       android:weightSum="2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+           android:id="@+id/open_search_button"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:background="@drawable/radius_background"
+           android:text="@string/open_search_screen" />
+       <Button
+           android:id="@+id/open_calender_button"
+           android:layout_width="0dp"
+           android:layout_marginStart="5dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:background="@drawable/radius_background"
+           android:text="@string/open_calender" />
+   </LinearLayout>
+</RelativeLayout>
+
+

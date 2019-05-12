@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="facebook_app_id">2432181616800827</string>
+    <string name="fb_login_protocol_scheme">fb2432181616800827</string>
+    <string name="show_friends_list">showUserDetails</string>
+    <string name="allow_contacts_permission">CONTACTS permission allows us to Access CONTACTS app</string>
+    <string name="permission_granted">Permission Granted, Now your application can access CONTACTS.</string>
+    <string name="permission_cancelled">Permission Canceled, Now your application cannot access CONTACTS.</string>
+    <string name="open_contacts">Open Contacts</string>
+    <string name="write_country_here">write country here</string>
+    <string name="user_name">User Name :</string>
+    <string name="remember_me">Remember Me :</string>
+    <string name="open_search_screen">Open Search Screen</string>
+    <string name="open_calender">Open Calender</string>
+    <string name="open_map_screen">Open Map Screen</string>
+
+</resources>
